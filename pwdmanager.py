@@ -5,7 +5,7 @@ app = Flask(__name__)
 app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
 
 # Dummy database to store encrypted passwords
-passwords = {}
+passwords = {} 
 
 # Dummy database to store user data
 users = {'user1': 'password1'}  # In practice, use a secure method to store passwords
